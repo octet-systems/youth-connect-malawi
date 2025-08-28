@@ -1,73 +1,155 @@
-# Welcome to your Lovable project
+# Youth Connect Malawi 🇲🇼
 
-## Project info
+A digital platform empowering young people in Malawi through connectivity, resources, and community engagement.
 
-**URL**: https://lovable.dev/projects/6f58be9f-29cf-4507-bad4-fcf9cbfa6172
+## 🎯 Mission
 
-## How can I edit this code?
+Youth Connect Malawi bridges the digital divide by providing a centralized, accessible platform where young Malawians can access educational resources, connect with peers, find opportunities, and actively participate in their communities' development.
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+- **📚 Resource Library**: Access to educational materials, career guidance, and skill development resources
+- **🤝 Community Forums**: Connect with like-minded youth across Malawi
+- **📞 Crisis Support**: Mental health resources and crisis intervention support
+- **💬 Peer Support Chat**: Real-time communication and support networks
+- **🏥 Wellness Tracker**: Tools to monitor and improve mental and physical wellbeing
+- **🎓 Educational Workshops**: Online and offline learning opportunities
+- **🤲 Volunteer Opportunities**: Ways to get involved in community service
+- **🌱 Start a Chapter**: Tools to establish local Youth Connect chapters
+- **💝 Donation Platform**: Support youth initiatives and programs
+- **📞 Contact & Support**: Easy access to help and information
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6f58be9f-29cf-4507-bad4-fcf9cbfa6172) and start prompting.
+## 🎨 Design Philosophy
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Mobile-First**: Optimized for smartphones and low-bandwidth connections
+- **Accessibility**: Inclusive design for users with disabilities
+- **Cultural Sensitivity**: Content and design respectful of Malawian culture
+- **Offline Capability**: Key features work even with limited internet connectivity
 
-**Use your preferred IDE**
+## 🚀 Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (v16 or higher) - [Install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- npm (comes with Node.js)
+- Git
 
-Follow these steps:
+### Local Development
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone https://github.com/your-username/youth-connect-malawi.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to project directory
+cd youth-connect-malawi
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server with hot reload
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint for code quality checks
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🛠 Technology Stack
 
-## What technologies are used for this project?
+### Frontend
+- **⚛️ React 18.3.1** - Modern UI library with hooks and functional components
+- **📘 TypeScript 5.8.3** - Type-safe JavaScript for better development experience
+- **⚡ Vite 5.4.19** - Fast build tool and development server
+- **🎨 Tailwind CSS 3.4.17** - Utility-first CSS framework
+- **🧩 shadcn/ui** - Accessible component library built on Radix UI
+- **🎭 Lucide React** - Beautiful, customizable icons
+- **🔄 React Router DOM** - Client-side routing
+- **📋 React Hook Form + Zod** - Form handling and validation
+- **🔔 Sonner** - Toast notifications
+- **🌙 Next Themes** - Dark/light mode support
+- **📊 React Query** - Server state management
 
-This project is built with:
+### Development Tools
+- **📝 ESLint** - Code linting and quality assurance
+- **🎯 PostCSS** - CSS processing
+- **🔧 Tailwind Animate** - CSS animations
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Deployment
+- **☁️ Lovable Platform** - Integrated development and deployment
 
-## How can I deploy this project?
+## 📁 Project Structure
 
-Simply open [Lovable](https://lovable.dev/projects/6f58be9f-29cf-4507-bad4-fcf9cbfa6172) and click on Share -> Publish.
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # shadcn/ui components
+│   ├── Header.tsx      # Navigation header
+│   ├── Footer.tsx      # Site footer
+│   └── ...            # Feature components
+├── pages/              # Application pages/routes
+│   ├── Index.tsx       # Homepage
+│   ├── CommunityForum.tsx
+│   ├── ResourceLibrary.tsx
+│   └── ...            # Other pages
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+└── App.tsx            # Root application component
+```
 
-## Can I connect a custom domain to my Lovable project?
+## 🌍 Contributing
 
-Yes, you can!
+We welcome contributions from developers, designers, and youth advocates! Please:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Development Guidelines
+- Follow the existing code style and conventions
+- Use TypeScript for type safety
+- Write meaningful commit messages
+- Test your changes thoroughly
+- Ensure responsive design works on mobile devices
+
+## 🚀 Deployment
+
+### Via Lovable Platform
+1. Open [Lovable Project](https://lovable.dev/projects/6f58be9f-29cf-4507-bad4-fcf9cbfa6172)
+2. Click "Share" → "Publish"
+
+### Custom Domain
+To connect a custom domain:
+1. Navigate to Project > Settings > Domains
+2. Click "Connect Domain"
+3. Follow the setup instructions
+
+[Learn more about custom domains](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Support
+
+For support, questions, or collaboration opportunities:
+- Create an issue on GitHub
+- Contact the development team
+- Join our community discussions
+
+## 🙏 Acknowledgments
+
+- Built with ❤️ for the youth of Malawi
+- Powered by [Lovable](https://lovable.dev)
+- UI components from [shadcn/ui](https://ui.shadcn.com)
+- Icons by [Lucide](https://lucide.dev)
+
+---
+
+**Together, we're building a brighter digital future for Malawian youth! 🌟**
